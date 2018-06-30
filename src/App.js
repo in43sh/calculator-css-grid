@@ -6,26 +6,26 @@ class App extends Component {
     return (
       <div className="App">
         <div className="wrapper">
-          <div className="screen"></div>
-          <div className="clear">AC</div>
-          <div className="negative-sign">+/-</div>
-          <div className="percentage">%</div>
-          <div className="divide">/</div>
-          <div className="seven">7</div>
-          <div className="eight">8</div>
-          <div className="nine">9</div>
-          <div className="multiply">*</div>
-          <div className="four">4</div>
-          <div className="five">5</div>
-          <div className="six">6</div>
-          <div className="substitute">-</div>
-          <div className="one">1</div>
-          <div className="two">2</div>
-          <div className="three">3</div>
-          <div className="plus">+</div>
-          <div className="zero">0</div>
-          <div className="dot">.</div>
-          <div className="equals">=</div>
+          <div className="box screen"></div>
+          <div className="box btn operator clear">AC</div>
+          <div className="box btn operator negative-sign">±</div>
+          <div className="box btn operator percentage">%</div>
+          <div className="box btn operator divide">/</div>
+          <div className="box btn seven">7</div>
+          <div className="box btn eight">8</div>
+          <div className="box btn nine">9</div>
+          <div className="box btn operator multiply">*</div>
+          <div className="box btn four">4</div>
+          <div className="box btn five">5</div>
+          <div className="box btn six">6</div>
+          <div className="box btn operator substitute">-</div>
+          <div className="box btn one">1</div>
+          <div className="box btn two">2</div>
+          <div className="box btn three">3</div>
+          <div className="box btn operator plus">+</div>
+          <div className="box btn zero">0</div>
+          <div className="box btn dot">.</div>
+          <div className="box btn operator equals">=</div>
         </div>
       </div>
     );

@@ -4,6 +4,8 @@
   text-align: center;
   display: flex;
   justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .wrapper {
@@ -13,6 +15,20 @@
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: 50px;
   grid-auto-columns: 100px;
+}
+
+.box {
+  /* padding: 15px 0; */
+  line-height: 50px;
+  height: 50px;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.operator {
+  background-color: #18f9f5;
 }
 
 .wrapper > div {
